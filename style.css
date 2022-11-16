@@ -1,0 +1,30 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 150px;
+  font-size: 25px;
+}
+h1 {
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
